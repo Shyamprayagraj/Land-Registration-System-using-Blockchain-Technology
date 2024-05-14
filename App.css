@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.emblem {
+  width: 5rem;
+  padding-right: 2rem;
+}
+body {
+  /* background-color: #454545; */
+  color: white;
+  background: url(./images/background.jpg);
+  opacity: 95%;
+  background-size: cover;
+}
+/* .App {
+  background-color: #454545;
+  color: white;
+  min-height: 100vh;
+  min-width: 99vw;
+} */
+.landingPage-heading-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.landingPage-btn,
+.update-btn {
+  padding: 1rem 6rem;
+  margin-top: 4rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  outline: none !important;
+  border: none !important;
+  background-color: rgb(5, 147, 5);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.welcome-p {
+  margin-top: 5rem;
+  font-size: 2.4rem;
+  width: 50%;
+}
+
+/* small devices */
+@media screen and (max-width: 400px) {
+  .landingPage-mainDiv {
+    padding: 0 2rem;
+  }
+
+  .welcome-p {
+    width: 86%;
+  }
+
+  .landingPage-btn {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+  }
+
+  html {
+    font-size: 80%;
+  }
+}
